@@ -1,15 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
+  <title>myteam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="./css/column.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  
+  <div class="wraper">
+    <section id="hero">
+      <div class="container">
+        <header class="main-header flex between align">
+          <div class="main-header__logos flex align">
+            <a class="main-header__logo" href="#">
+              <img src="./img/logo.svg" alt="logo">
+            </a>
+            <nav class="main-header__nav nav block">
+              <ul class="nav__list flex">
+                <li class="nav__item"><a class="nav__link" href="#">home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">about</a></li>
+              </ul>
+            </nav>
+          </div>
+          <a class="block main-header__btn" href="#">contact us</a>
+          <div class="main-header__menu">
+            <button class="main-header__menu-buton"> <i class='bx bx-menu'></i></button>
+          </div>
+        </header>
+        <div class="hero">
+          <h1 class="hero__title">About</h1>
+          <p class="hero__text">We help companies build dynamic teams made up of top global talent. Using our network of
+            passionate professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape
+            the best products and experiences. We’ll bring those teams to you.</p>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section id="directors">
+        <div class="container">
+          <h2 class="directors__title">Meet the directors</h2>
+          <ul class="directors__list">
+            <li class="directors__item direk1">
+              <p class="directors__name">Nikita Marks</p>
+              <p class="directors__job">Founder & CEO</p>
+              <button class="directors__btn"><i class='bx bx-plus'></i></button>
+            </li>
+            <li class="directors__item direk2">
+              <p class="directors__name">Nikita Marks</p>
+              <p class="directors__job">Founder & CEO</p>
+              <button class="directors__btn"><i class='bx bx-plus'></i></button>
+            </li>
+            <li class="directors__item direk3">
+              <p class="directors__name">Nikita Marks</p>
+              <p class="directors__job">Founder & CEO</p>
+              <button class="directors__btn"><i class='bx bx-plus'></i></button>
+            </li>
+            <li class="directors__item direk4">
+              <p class="directors__name">Nikita Marks</p>
+              <p class="directors__job">Founder & CEO</p>
+              <button class="directors__btn"><i class='bx bx-plus'></i></button>
+            </li>
+            <li class="directors__item direk5">
+              <p class="directors__name">Nikita Marks</p>
+              <p class="directors__job">Founder & CEO</p>
+              <button class="directors__btn"><i class='bx bx-plus'></i></button>
+            </li>
+            <li class="directors__item last__item">
+              <p class="directors__name">Nikita Marks</p>
+              <p class="directors__des">“Empowered teams create truly amazing products. Set the north star and let them
+                follow it.”</p>
+              <ul class="directors__iner-list flex">
+                <li class="directors__iner-item"><a href="#"><i class='bx bx-dirk bxl-twitter'></i></a></li>
+                <li class="directors__iner-item"><a href="#"><i class='bx bx-dirk bxl-linkedin-square'></i></a></li>
+              </ul>
+              <button class="directors__btn last__btn"><i class='bx bx-plus'></i></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="clients">
+        <div class="container">
+          <h2 class="clients__title">Some of our clients</h2>
+          <ul class="clients__list">
+            <li class="clients__item">
+              <img src="./img/client1.svg" alt="clients">
+            </li>
+            <li class="clients__item">
+              <img src="./img/client2.svg" alt="clients">
+            </li>
+            <li class="clients__item">
+              <img src="./img/client3.svg" alt="clients">
+            </li>
+            <li class="clients__item">
+              <img src="./img/client4.svg" alt="clients">
+            </li>
+            <li class="clients__item last__klient">
+              <img src="./img/client5.svg" alt="clients">
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="started">
+        <div class="container">
+          <div class="started__content">
+            <h2 class="started__title">Ready to get started?</h2>
+            <a class="started__btn" href="#">contact us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
+
 </html>
